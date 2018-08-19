@@ -1,0 +1,3 @@
+curl -i -s -k  -X $'GET' \
+    -H $'Host: jk77ljn1wiehlbl9octshuqnze54txllb81wq.burpcollaborator.net' -H $'X-Forwarded-For: jk77ljn1wiehlbl9octshuqnze54txllb81wq.burpcollaborator.net' -H $'Pragma: no-cache' -H $'Cache-Control: no-cache, no-transform' -H $'Connection: close' \
+    $'https://gatecoin.com/.htaccess.bak1'
