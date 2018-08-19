@@ -1,0 +1,263 @@
+/* line 1, /root/Desktop/Rails/test-react/app/assets/stylesheets/devise.scss */
+.submit_button {
+  background-color: #64B5F6;
+  /* Green */
+  border: solid 0.1px #64B5F6;
+  color: white;
+  font-weight: bold;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+/* line 13, /root/Desktop/Rails/test-react/app/assets/stylesheets/devise.scss */
+.submit_button:hover {
+  background-color: #42A5F5;
+}
+
+/* line 2, /root/Desktop/Rails/test-react/app/assets/stylesheets/application.scss */
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 5, /root/Desktop/Rails/test-react/app/assets/stylesheets/application.scss */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+/* line 10, /root/Desktop/Rails/test-react/app/assets/stylesheets/application.scss */
+body, html {
+  height: 100%;
+  background-color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* line 15, /root/Desktop/Rails/test-react/app/assets/stylesheets/application.scss */
+.container {
+  position: absolute;
+  top: 10;
+  padding: 0;
+  width: 100%;
+}
+
+/* line 22, /root/Desktop/Rails/test-react/app/assets/stylesheets/application.scss */
+.header-wrapper {
+  position: relative;
+  background-color: #666666;
+}
+
+/* line 26, /root/Desktop/Rails/test-react/app/assets/stylesheets/application.scss */
+.header-upper ul {
+  position: relative;
+  top: 10px;
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 5px;
+}
+
+/* line 34, /root/Desktop/Rails/test-react/app/assets/stylesheets/application.scss */
+.header-upper ul li {
+  float: right;
+  height: 50px;
+}
+
+/* line 38, /root/Desktop/Rails/test-react/app/assets/stylesheets/application.scss */
+.header-upper .h1 {
+  position: relative;
+  top: 5px;
+  font-family: Times New Roman, Times, serif;
+  padding: 0 100px 0 100px;
+  color: white;
+}
+
+/* line 46, /root/Desktop/Rails/test-react/app/assets/stylesheets/application.scss */
+.header-upper a {
+  position: relative;
+  top: 10px;
+  font-size: 16px;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  padding: 7px 30px 7px 30px;
+  border: solid 1px black;
+  border-radius: 5px;
+}
+
+/* line 58, /root/Desktop/Rails/test-react/app/assets/stylesheets/application.scss */
+.header-upper .sign_in {
+  background-color: black;
+  color: white;
+}
+
+/* line 62, /root/Desktop/Rails/test-react/app/assets/stylesheets/application.scss */
+.header-upper a:hover {
+  background: white;
+  color: black;
+  border: solid 1px black;
+}
+
+/* line 67, /root/Desktop/Rails/test-react/app/assets/stylesheets/application.scss */
+.header-navbar {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  overflow: hidden;
+  background-color: white;
+}
+
+/* line 74, /root/Desktop/Rails/test-react/app/assets/stylesheets/application.scss */
+.header-navbar a {
+  float: right;
+  font-size: 16px;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  border: solid 0.1px #f2f2f2;
+}
+
+/* line 85, /root/Desktop/Rails/test-react/app/assets/stylesheets/application.scss */
+.dropdown {
+  float: right;
+  overflow: hidden;
+  border: solid 0.1px #f2f2f2;
+}
+
+/* line 91, /root/Desktop/Rails/test-react/app/assets/stylesheets/application.scss */
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: black;
+  font-weight: bold;
+  padding: 14px 25px;
+  background-color: inherit;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* line 103, /root/Desktop/Rails/test-react/app/assets/stylesheets/application.scss */
+.header-navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+/* line 107, /root/Desktop/Rails/test-react/app/assets/stylesheets/application.scss */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 10px;
+  box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+/* line 116, /root/Desktop/Rails/test-react/app/assets/stylesheets/application.scss */
+.dropdown-content a {
+  float: none;
+  color: black;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+}
+
+/* line 124, /root/Desktop/Rails/test-react/app/assets/stylesheets/application.scss */
+.dropdown-content a:hover {
+  background-color: #ddd;
+  display: flex;
+  justify-content: center;
+}
+
+/* line 130, /root/Desktop/Rails/test-react/app/assets/stylesheets/application.scss */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* line 134, /root/Desktop/Rails/test-react/app/assets/stylesheets/application.scss */
+.active {
+  background-color: #4CAF50;
+}
+
+/* line 137, /root/Desktop/Rails/test-react/app/assets/stylesheets/application.scss */
+.about {
+  padding-top: 100px;
+}
+
+/* line 142, /root/Desktop/Rails/test-react/app/assets/stylesheets/application.scss */
+.footer {
+  position: relative;
+  top: 90%;
+  width: 100%;
+  height: 80px;
+  left: 0;
+  background-color: grey;
+}
+
+/* line 151, /root/Desktop/Rails/test-react/app/assets/stylesheets/application.scss */
+.footer ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+}
+
+/* line 156, /root/Desktop/Rails/test-react/app/assets/stylesheets/application.scss */
+.footer ul li {
+  font-weight: bold;
+  padding: 25px 20px 0 25px;
+}
+
+/* line 160, /root/Desktop/Rails/test-react/app/assets/stylesheets/application.scss */
+.content {
+  display: flex;
+  align-content: center;
+  min-height: 800px;
+  background-color: white;
+  margin: 1% 10% 1% 10%;
+  font-size: 30px;
+  font-family: times, Times New Roman, times-roman, georgia, serif;
+  padding-right: 20%;
+  padding-left: 20%;
+  line-height: 1.6;
+}
+
+/* line 172, /root/Desktop/Rails/test-react/app/assets/stylesheets/application.scss */
+.content::after {
+  padding-bottom: 100px;
+}
+
+/* line 175, /root/Desktop/Rails/test-react/app/assets/stylesheets/application.scss */
+.sign_in {
+  margin: auto;
+  width: 50%;
+  text-align: center;
+}
+
+/*mobiles*/
+@media (max-width: 480px) {
+  /* line 182, /root/Desktop/Rails/test-react/app/assets/stylesheets/application.scss */
+  .header-navbar {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    overflow: hidden;
+    background-color: white;
+  }
+
+  /* line 189, /root/Desktop/Rails/test-react/app/assets/stylesheets/application.scss */
+  .content {
+    background-color: white;
+    margin: 0 0 0 0;
+    font-size: 60px;
+    font-family: times, Times New Roman, times-roman, georgia, serif;
+    padding-right: 50px;
+    padding-left: 50px;
+  }
+}

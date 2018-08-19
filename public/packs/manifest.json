@@ -1,0 +1,8 @@
+{
+  "application.js": "/packs/application-56422c325b45bc9b071b.js",
+  "application.js.map": "/packs/application-56422c325b45bc9b071b.js.map",
+  "main_layout.js": "/packs/main_layout-440f260127b4c0599756.js",
+  "main_layout.js.map": "/packs/main_layout-440f260127b4c0599756.js.map",
+  "server_rendering.js": "/packs/server_rendering-5e0eb1d9a30994055a74.js",
+  "server_rendering.js.map": "/packs/server_rendering-5e0eb1d9a30994055a74.js.map"
+}

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>TestReact</title>
+    <%= provide(:viewport,'width=device-width, initial-scale=1') %>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <%= stylesheet_link_tag  "https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css", media: 'all','data-turbolinks-track': 'reload' %>
+    <%= stylesheet_link_tag  "https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css", media: 'all','data-turbolinks-track': 'reload' %>
+    <%= stylesheet_link_tag  "https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css", media: 'all','data-turbolinks-track': 'reload' %>
+    <%= stylesheet_link_tag  "https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css", media: 'all','data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+    <div class="container">
+        <div id="header" class="header-wrapper">
+                    <% if user_signed_in? %>
+          <div class="navbar-item has-dropdown is-hoverable">
+            <%= link_to 'New', '#', class: "navbar-link" %>
+          </div>
+          <div class="navbar-item has-dropdown is-hoverable">
+            <%= link_to 'Account', edit_user_registration_path, class: "navbar-link" %>
+            <div class="navbar-dropdown is-right">
+              <%= link_to current_user.name, edit_user_registration_path, class:"navbar-item" %>
+              <%= link_to "Log Out", destroy_user_session_path, method: :delete, class:"navbar-item" %>
+            </div>
+          </div>
+<% end %>
+            <div class="header-upper">
+              <ul>
+                <li><a class="bec_author" href="#">Become an Author</a></li>
+                <li><h1 class="h1">HACTIVITIES</h1></li>
+                <li><a class="sign_in" href="#join">Join Us</a></li> 
+              </ul>
+            </div>
+            <div class="header-navbar">
+              <a class="active" href="#home">HOME</a> 
+              <div class="dropdown">
+                <button class="dropbtn"> 
+                  ETHICAL HACKING
+                </button>
+                <div class="dropdown-content">
+                    <a href="#">LINUX</a>
+                    <a href="#">VULNERABILITIES</a>
+                    <a href="#">NETWORKING</a>
+                    <a href="#">RESOURCES</a>
+                </div>
+              </div>
+              <div class="dropdown">
+                <button class="dropbtn"> 
+                  TOOLS
+                </button>
+                  <div class="dropdown-content">
+                    <a href="#">ACTIVE</a>
+                    <a href="#">PASSIVE</a>
+                  </div>
+              </div> 
+                <a href="#about"> ABOUT</a>     
+            </div>
+
+        </div>
+            <div class="content">
+              <%= yield %>
+            </div>
+            <div class="footer two">
+              <ul>
+                <li>Recent</li>
+                <li>Features</li>
+                <li>Test</li>
+              </ul>
+            </div>
+            <div class="footer one">
+              <ul>
+                <li>hactivities &copy 2018</li>
+                <li><i class="devicon-github-plain"></i> </li>
+                <li><i class="devicon-facebook-plain"></i></li>
+                <li><i class="devicon-twitter-plain"></i></li>
+              </ul>
+            </div>
+        </div>      
+  </body>
+</html>
